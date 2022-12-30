@@ -1,0 +1,19 @@
+
+.item {
+    margin-bottom: 15px;
+}
+
+
+.text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    padding: 10px;
+    margin: 0;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 30px;
+    color: #059351;
+}

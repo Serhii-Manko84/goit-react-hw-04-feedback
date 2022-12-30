@@ -1,0 +1,14 @@
+.stats {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #010101;
+}
+
+ul {
+    list-style: none;
+}
