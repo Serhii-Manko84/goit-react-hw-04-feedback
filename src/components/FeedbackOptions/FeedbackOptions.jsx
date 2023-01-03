@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from '../FeedbackOptions/FeedbackOptions.module.css';
 
-export const FeedbackOptions = ({ options, onFeedback }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <ul className={css.list}>
       {options.map(option => (
@@ -10,7 +10,7 @@ export const FeedbackOptions = ({ options, onFeedback }) => {
             className={css.button}
             type="button"
             name={option}
-            onClick={onFeedback}
+            onClick={onLeaveFeedback}
           >
             {option}
           </button>
